@@ -7,7 +7,7 @@ function gret(nam) {
 
 }
 gret("found");
-function fun(yy) {
-    console.log ("Arguments found")
+function fun(yy,pp,nn) {
+    console.log (yy + pp + " " + nn)
 }
-fun();
+fun("Argu","ments","found");
