@@ -1,17 +1,8 @@
-function nan(nu,me) {
-    console.log(nu + " " + me);
+#!/usr/bin/node
 
-}
-nan("c is","cool");
-function get(nb,nj) {
-    console.log(nb + " " + nj)
-}
-get("c is");
-function cpu(mer,hen) {
-    console.log(mer + " " + hen);
-}
-cpu("undefined is ");
-function lay(hy,nu) {
-    console.log(hy + " " + nu)
-}
-lay("Python","is fun")
+// Get the two command-line arguments
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
+
+// Print them in the format "arg1 is arg2"
+console.log(`${arg1} is ${arg2}`);
